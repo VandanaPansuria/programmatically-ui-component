@@ -8,7 +8,7 @@
 import UIKit
 
 class FirstViewController: UIViewController , UITableViewDelegate, UITableViewDataSource {
-
+    //variable
     var groceries = GroceriesAPI.getData() // model
     let myTableView = UITableView()
     lazy var searchBar:UISearchBar = UISearchBar()
